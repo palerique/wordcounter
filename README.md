@@ -29,8 +29,9 @@ Suppose we have a text file named "sample.txt" with the following content:
 This is a sample text. It contains multiple words. This is a simple exercise.
 ```
 
-Running the program with the command: `java WordCountApp sample.txt` should
-produce the following output:
+~~Running the program with the command: `java WordCountApp sample.txt` should
+produce the following output:~~ (Because we are now packaging the application as a jar, the command to run the
+application is slightly different, but the output is the same, check the instructions below)
 
 ```
 word: this, count: 2 word: a, count: 2 word: is, count: 2 word: sample, count: 1
@@ -40,8 +41,7 @@ count: 1 word: simple, count: 1 word: exercise, count: 1
 
 **Project Specifications:**
 
-To this project to execute that way you need a unix like machine with the following software installed:
-
+To execute this project you need a unix like machine with the following software installed:
 - Java 17
 
 You can also run on windows using a terminal emulator like git bash. Or running the build an java jar execution
@@ -56,6 +56,7 @@ From the project root run:
 ```
 
 Expected output:
+
 ```
 word: a, count: 2 word: this, count: 2 word: is, count: 2 word: contains, count: 1 word: multiple, count: 1 word: words,
 count: 1 word: exercise, count: 1 word: simple, count: 1 word: text, count: 1 word: it, count: 1 word: sample, count:
